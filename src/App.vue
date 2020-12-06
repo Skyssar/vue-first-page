@@ -1,15 +1,15 @@
 <template>
   <div id="app">
 
-    <Carousel/>
+    <page-header/>
 
     <!-- Noticias -->
-    <section class="container-fluid">
+    <section id="news" class="container-fluid">
       <hr>
       <page-news title="Sección de Noticias"/>
     </section>
 
-    <section class="container-fluid">
+    <section id="team" class="container-fluid">
       <hr>
       <h2 class="text-center">Equipo de trabajo</h2>
       <div class="card-deck">
@@ -19,19 +19,19 @@
       </div>
     </section>
 
+    <!-- Este es un componente para probar las peticiones con axios -->
+    <div class="mt-2">
+      <PruebaAxios/>
+    </div>
 
-    <PruebaAxios/>
-
-
-
-    <Probemos title="Welcome to Your Test Part of App"/>
+    <!-- <Probemos title="Welcome to Your Test Part of App"/> -->
   </div>
 </template>
 
 <script>
 
-import Probemos from './components/Probemos.vue';
-import Carousel from './components/Carousel.vue';
+// import Probemos from './components/Probemos.vue';
+import PageHeader from './components/PageHeader.vue';
 import TeamCard from './components/TeamCard.vue';
 import PageNews from './components/PageNews.vue';
 import PruebaAxios from './components/PruebaAxios.vue';
@@ -39,8 +39,7 @@ import PruebaAxios from './components/PruebaAxios.vue';
 export default {
   name: 'App',
   components: {
-    Probemos,
-    Carousel,
+    PageHeader,
     TeamCard,
     PruebaAxios,
     PageNews
@@ -55,6 +54,7 @@ export default {
                 descripcion : "Ingeniero, Músico y sobre apasionado a los videojuegos." ,
                 rol : "Scrum Master" ,
                 image : "images/wolf.jpeg"
+                
             },
             {
                 codigo : 2 ,
@@ -97,6 +97,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   /* text-align: center; */
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
