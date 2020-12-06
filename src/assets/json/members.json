@@ -1,0 +1,37 @@
+[
+    {
+        "codigo" : 1 ,
+        "nombre" : "Wolfgang Santamaría" ,
+        "descripcion" : "Ingeniero, Músico y sobre apasionado a los videojuegos." ,
+        "rol" : "Desarrollador backend" ,
+        "image" : "images/wolf.jpeg"
+    },
+    {
+        "codigo" : 2 ,
+        "nombre" : "Yasar José Cure" ,
+        "descripcion" : "Estudiante de Ingeniería de Sistemas. Me gusta la comida, jugar fútbol y los videojuegos, pero eso cuando hay tiempo." ,
+        "rol" : "Desarrollador frontend" ,
+        "image" : "images/yaser.jpeg"
+    },
+    {
+        "codigo" : 3 ,
+        "nombre" : "Geraldine Claros" ,
+        "descripcion" : "Habilidades y competencias en ciencias físicas, matemáticas y en diversos lenguajes de programación." ,
+        "rol" : "Documenta2" ,
+        "image" : "images/geral.jpeg"
+    },
+    {
+        "codigo" : 4,
+        "nombre" : "Jason Roberto Camargo" ,
+        "descripcion" : "Apasionado por el desarrollo de software y la tecnologia. Amante a la velocidad. Biker " ,
+        "rol" : "Sprint Master" ,
+        "image" : "images/jason.jpeg"
+    },
+    {
+        "codigo" : 5 ,
+        "nombre" : "Jaime Andrés Bravo" ,
+        "descripcion" : "Ingeniero mecanico, baterista, ciclista, y exfutbolista. Incursionando en el desarrollo de aplicaciones. Con experiencia en el montaje de calderas" ,
+        "rol" : "El del tinto" ,
+        "image" : "images/andres.jpeg"
+    }
+ ]
